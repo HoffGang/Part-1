@@ -25,7 +25,7 @@ public class Car : MonoBehaviour
     private void FixedUpdate()
     {
         rigidbody.AddTorque(steering * -steeringSpeed * Time.deltaTime);
-        Vector2 force = transform.up * acceleration * forwardSpeed *Time.deltaTime;
+        Vector2 force = transform.up * acceleration * forwardSpeed * Time.deltaTime);
         rigidbody.AddForce(force);
     }
 }
