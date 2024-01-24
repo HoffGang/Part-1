@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class MissileScript : MonoBehaviour
+
 {
     float speed = 5f;
 
@@ -18,3 +19,4 @@ public class MissileScript : MonoBehaviour
         transform.Translate(1 * speed * Time.deltaTime, 0, 0);
     }
 }
+

@@ -5,6 +5,7 @@ using UnityEngine;
 public class Switch : MonoBehaviour
 {
     SpriteRenderer spriteRenderer;
+    
 
     // Start is called before the first frame update
     void Start()
